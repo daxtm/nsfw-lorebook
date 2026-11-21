@@ -1,0 +1,608 @@
+{
+  "corpus": [
+    "He showed restraint during the meeting.",
+    "Come outside.",
+    "She added ice cubes to the lemonade.",
+    "He stopped at the traffic lights.",
+    "She bought strawberries.",
+    "He cleared his throat and opened the folder.",
+    "The meeting ran long and the coffee went cold.",
+    "She flipped the light switch on her way out.",
+    "He tugged his collar straight in the mirror.",
+    "The spark plug needed replacing.",
+    "She wore a crop top to the market.",
+    "The team were patient during the review.",
+    "He choked back tears at the airport.",
+    "She submitted the assignment before noon.",
+    "A graphic tee and jeans, nothing more.",
+    "The running gag in the office never got old.",
+    "He walked through the woods to the lake.",
+    "The kettle whistled and she poured the tea.",
+    "Rain hammered the window all afternoon.",
+    "He balanced the ledger and closed the shop.",
+    "The bus was late again.",
+    "She sorted the recycling into the right bins.",
+    "A stack of invoices sat unopened.",
+    "The dog barked at the postman.",
+    "He tightened the bolt with a wrench.",
+    "The printer jammed on page forty.",
+    "She booked the flight and printed the boarding pass.",
+    "The landlord promised to fix the radiator.",
+    "He counted the change twice.",
+    "The pavement was slick with leaves.",
+    "Her phone buzzed with a reminder.",
+    "They argued about the washing up.",
+    "The library closed at six.",
+    "He sharpened the kitchen knife.",
+    "She filed the report under the wrong name.",
+    "The train doors closed on his coat.",
+    "A wasp circled the jam jar.",
+    "He checked the tyre pressure at the garage.",
+    "She wiped down the counter.",
+    "The lift stopped between floors.",
+    "He read the manual twice and still got it wrong.",
+    "The neighbours played music until eleven.",
+    "She stirred the soup and tasted it.",
+    "The paint dried a shade too green.",
+    "He missed the turn and swore quietly.",
+    "The shelf collapsed under the weight of the books.",
+    "She noted the time in the margin.",
+    "The fire alarm went off during lunch.",
+    "He folded the map along its creases.",
+    "Hail rattled the skylight.",
+    "The queue stretched around the corner.",
+    "She paid the deposit in cash.",
+    "His boots left wet prints in the hall.",
+    "The lamp flickered and died.",
+    "They shook hands on the deal.",
+    "The bread had gone stale.",
+    "He stacked the chairs after the talk.",
+    "She checked the seal on the jar.",
+    "The ferry ran every half hour.",
+    "He unhooked the gate and pushed it open.",
+    "The ink ran out mid-sentence.",
+    "She measured twice and cut once.",
+    "The drain was blocked again.",
+    "He whistled while he worked.",
+    "The forecast promised sun by Thursday.",
+    "She locked up and walked home the long way.",
+    "The spare key hung on a nail by the door.",
+    "The master bedroom is upstairs.",
+    "He is a slave to routine.",
+    "He is a dominating presence.",
+    "He is kneeling in the garden.",
+    "The switch is faulty.",
+    "They are oral about their plans.",
+    "Shit, I missed the bus.",
+    "The magician waved a magic wand.",
+    "The technician put on latex gloves.",
+    "She bought a doll.",
+    "The wound healed badly.",
+    "He bled on the floor."
+  ],
+  "recursion": [
+    [
+      "kara",
+      "Kara is a pansexual switch, open and enthusiastic about sex. Her kinks are incest, consensual non-consent, and basic BDSM.",
+      [
+        "Explicit scene direction",
+        "Dominance and submission",
+        "Switching",
+        "Consensual non-consent (CNC)",
+        "Explicit vocabulary",
+        "Incest and family dynamics",
+        "Reply focus (randomized)"
+      ]
+    ],
+    [
+      "silas",
+      "Silas is dominant, with a taste for bondage, orgasm control, and praise and degradation, which he wears lightly.",
+      [
+        "Explicit scene direction",
+        "Dominance and submission",
+        "Bondage and restraint",
+        "Orgasm control",
+        "Praise kink",
+        "Degradation and humiliation",
+        "Explicit vocabulary",
+        "Reply focus (randomized)"
+      ]
+    ]
+  ],
+  "Explicit scene direction": "He pulled her clothes off; she was naked now.",
+  "Limits, safewords, check-ins": "Color? she asked. Green, he said, the safeword ready.",
+  "Dominance and submission": "He told her to kneel for him, and she obeyed her dominant.",
+  "Switching": "They switched roles halfway through.",
+  "Bratting and taming": "Such a brat, he said, and started taming her.",
+  "Bondage and restraint": "He cuffed her to the rail and tested the straps.",
+  "Rope bondage": "Coils of rope, shibari, each pass cinched tight.",
+  "Impact play": "He spanked her, then reached for the paddle.",
+  "Marks and bruising": "The spanking left welts and a bruise; she looked at them, naked, in the mirror.",
+  "Orgasm control": "May I come? she asked, permission to come.",
+  "Forced orgasms and overstimulation": "The wand vibrator kept going, overstimulation until she cried.",
+  "Praise kink": "Good girl, he said, praise warm in his voice.",
+  "Degradation and humiliation": "Such a slut, he said, degrading her gently.",
+  "Consensual non-consent (CNC)": "Consensual non-consent: she struggled and he ravished her.",
+  "Rough sex": "Rough sex, hair pulling, he pinned her down.",
+  "Choking and breath play": "His hand around her throat, breath play in earnest.",
+  "Sensory deprivation and gags": "He put the blindfold on and gagged her.",
+  "Sensation play": "Ice cubes and candle wax, hot wax across her back.",
+  "Collars and leashes": "He fastened the collar on her and clipped the leash.",
+  "Sex toys": "The vibrator first, then the butt plug.",
+  "Dirty talk": "Talk dirty, he said. Tell me what you want.",
+  "Exhibitionism and voyeurism": "Exhibitionism: the risk of getting caught, being watched.",
+  "Subspace, domspace and drop": "She went under, floaty, deep in sub space.",
+  "Aftercare": "Aftercare: a blanket, water, and his arms.",
+  "Explicitness - maximum": "NC-17, pornographic, filthy.",
+  "Reply focus (randomized)": "She was naked and moaned against his mouth.",
+  "Oral sex": "She went down on him, a slow blowjob.",
+  "Anal sex, rimming, pegging": "Anal, then rimming, then pegging him.",
+  "Fingering and handjobs": "He fingered her, thumb circling her clit.",
+  "Positions": "Missionary first, then doggy style, while she moaned.",
+  "Teasing and foreplay": "Foreplay: he teased her through her panties while she moaned.",
+  "Body worship and nipple play": "He kissed her tits and her nipples, body worship, until she was aroused.",
+  "Pet play": "Good puppy, on all fours, pet play.",
+  "Breeding and creampies": "Breeding, a creampie, and his cum inside me.",
+  "Size difference": "Size difference: he towered over her and fucked her standing.",
+  "Fluids and mess": "Cum on her tits, spit, sweat.",
+  "Sexual roleplay scenarios": "Roleplay: strangers at a bar in costumes, a scenario she moaned through.",
+  "Masturbation and watching": "She masturbated while he watched.",
+  "Foot play": "Foot worship, he sucked her toes.",
+  "Primal play": "Primal: he chased her, a hunt, growling, then fucked her on the floor.",
+  "Sadism and masochism": "Sadism and masochism: make it hurt.",
+  "Multiple partners": "A threesome, then double penetration.",
+  "Clothing and fetishwear": "Lingerie, stockings, a garter belt, left on while she was aroused.",
+  "Tickling": "Tickling her ribs until she laughed and moaned.",
+  "Recording and photos": "He filmed us on camera, a sex tape.",
+  "Edge play: knives and electricity": "Knife play, the blade against her skin, then electro play.",
+  "Sex outdoors": "Outside in the woods, on the dock, he fucked her.",
+  "Sex in water and showers": "In the lake, then the shower, sex both times.",
+  "First time after long tension": "The first time, after years of wanting this, he fucked her slowly.",
+  "Service and objectification": "Cockwarming, free use, objectification: she held him and fucked nothing.",
+  "Explicit vocabulary": "He put his cock in her cunt and she moaned.",
+  "Ageplay and caregiver dynamics": "Good little girl, Daddy said, and she climbed into his lap in little space.",
+  "Non-con": "He took her by force, non-consensual, hand over her mouth.",
+  "Zoophilia": "Zoophilia: she was on all fours and moaned as the knot swelled and caught in her cunt.",
+  "Fantasy species and knotting": "An orc with a ridged cock, fantasy species, knotting her.",
+  "Necrophilia": "Necrophilia: he lifted the corpse's leg himself, still warm.",
+  "Gore, injury and vore": "Gore: the wound was red and hot, blood slick, and he fucked her anyway.",
+  "Watersports": "Watersports: she pissed on his chest.",
+  "Scat": "Scat: she pushed it out onto his chest.",
+  "Blood play": "Blood play: he scratched until it bled and licked it off her naked back.",
+  "Incest and family dynamics": "Incest: her brother's hand was on her knee while they fucked.",
+  "Cuckolding and hotwifing": "Cuckolding: her husband watched her take the bull and moaned.",
+  "Lactation": "Lactation: milk let down and ran when he sucked.",
+  "Medical play": "Medical play: the speculum went in cold on the exam table.",
+  "Sounding": "Sounding: the rod slid into his urethra, slow.",
+  "Hypnosis and dollification": "Hypnosis: he put her in a trance and posed her like a doll.",
+  "Sissification": "Sissification: she pulled the panties up his legs, feminized.",
+  "Fisting and stretching": "Fisting: her whole hand stretched him open.",
+  "CBT and ball play": "CBT: she squeezed his balls until he gasped.",
+  "Kissing and making out": "Making out: he kissed her deep, tongue in her mouth.",
+  "Massage and sensual vanilla": "Massage first, oiled her back, then slow sensual sex.",
+  "Food play": "Food play: whipped cream on her stomach, licked off.",
+  "Body writing": "Body writing: he wrote PROPERTY on her with a marker.",
+  "Branding, piercing and tattoos": "Piercing: the needle went through while she was naked, and she hissed at the tattoo.",
+  "Public and semi-public sex": "Public: in the cubicle, semi-public, hand over her mouth while he fucked her.",
+  "Somnophilia": "Somnophilia: he woke her with two fingers in and she moaned.",
+  "TPE, protocol and honorifics": "TPE, 24/7 protocol: May I sit, Sir, she said and knelt before him.",
+  "Leather and dungeon etiquette": "The dungeon monitor nodded them onto the cross at the leather bar.",
+  "scenes": {
+    "explicit-director": "Write them fucking on the platform. NC-17, pornographic, as explicit as it gets. They dive into kinky sex.",
+    "cnc-outdoors": "Outside on the dock at night, NC-17. He shoves her against the rail, hand over her mouth, and fucks her whether she likes it or not. She struggles. Rough, dirty, no condom.",
+    "bondage-knotting": "She ties him to the bed in shibari, blindfolds him, and rides his cock while the knot swells and catches. Handfuls of lube, a wand against his balls, then she makes him come until he's too sensitive and begs.",
+    "aftercare-kiss": "Aftercare in the dark: a blanket, the garter belt still on, bruises on her hip. He kisses her deep and tells her she was good, and she falls asleep with his cum on her stomach.",
+    "hardcore-setpiece": "XXX hardcore. She has been in the chastity belt for nine days. He suspends her from the ceiling ring, clamps her nipples, drips wax down her spine, flogs it off, puts a plug in, then his fist, fucks her suspended, and ruins her first orgasm."
+  },
+  "expected": {
+    "Marks and bruising": [
+      "Impact play"
+    ],
+    "Forced orgasms and overstimulation": [
+      "Sex toys"
+    ],
+    "Teasing and foreplay": [
+      "Clothing and fetishwear"
+    ],
+    "Breeding and creampies": [
+      "Fluids and mess"
+    ],
+    "Fluids and mess": [
+      "Body worship and nipple play"
+    ],
+    "Fantasy species and knotting": [
+      "Zoophilia"
+    ],
+    "TPE, protocol and honorifics": [
+      "Dominance and submission"
+    ]
+  },
+  "expected_all": {
+    "Explicit scene direction": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)"
+    ],
+    "Limits, safewords, check-ins": [
+      "Limits, safewords, check-ins"
+    ],
+    "Dominance and submission": [
+      "Dominance and submission"
+    ],
+    "Switching": [
+      "Switching"
+    ],
+    "Bratting and taming": [
+      "Bratting and taming"
+    ],
+    "Bondage and restraint": [
+      "Bondage and restraint"
+    ],
+    "Rope bondage": [
+      "Rope bondage"
+    ],
+    "Impact play": [
+      "Impact play"
+    ],
+    "Marks and bruising": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Impact play",
+      "Marks and bruising",
+      "Reply focus (randomized)"
+    ],
+    "Orgasm control": [
+      "Orgasm control"
+    ],
+    "Forced orgasms and overstimulation": [
+      "Forced orgasms and overstimulation",
+      "Sex toys"
+    ],
+    "Praise kink": [
+      "Praise kink"
+    ],
+    "Degradation and humiliation": [
+      "Degradation and humiliation"
+    ],
+    "Consensual non-consent (CNC)": [
+      "Consensual non-consent (CNC)"
+    ],
+    "Rough sex": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)",
+      "Rough sex"
+    ],
+    "Choking and breath play": [
+      "Choking and breath play"
+    ],
+    "Sensory deprivation and gags": [
+      "Sensory deprivation and gags"
+    ],
+    "Sensation play": [
+      "Hardcore set pieces",
+      "Sensation play"
+    ],
+    "Collars and leashes": [
+      "Collars and leashes"
+    ],
+    "Sex toys": [
+      "Sex toys"
+    ],
+    "Dirty talk": [
+      "Dirty talk"
+    ],
+    "Exhibitionism and voyeurism": [
+      "Exhibitionism and voyeurism"
+    ],
+    "Subspace, domspace and drop": [
+      "Subspace, domspace and drop"
+    ],
+    "Aftercare": [
+      "Aftercare"
+    ],
+    "Explicitness - maximum": [
+      "Explicitness - maximum",
+      "Hardcore set pieces"
+    ],
+    "Reply focus (randomized)": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)"
+    ],
+    "Oral sex": [
+      "Oral sex"
+    ],
+    "Anal sex, rimming, pegging": [
+      "Anal sex, rimming, pegging"
+    ],
+    "Fingering and handjobs": [
+      "Explicit vocabulary",
+      "Fingering and handjobs"
+    ],
+    "Positions": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Positions",
+      "Reply focus (randomized)"
+    ],
+    "Teasing and foreplay": [
+      "Clothing and fetishwear",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)",
+      "Teasing and foreplay"
+    ],
+    "Body worship and nipple play": [
+      "Body worship and nipple play",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)"
+    ],
+    "Pet play": [
+      "Pet play"
+    ],
+    "Breeding and creampies": [
+      "Breeding and creampies",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Fluids and mess",
+      "Reply focus (randomized)"
+    ],
+    "Size difference": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)",
+      "Size difference"
+    ],
+    "Fluids and mess": [
+      "Body worship and nipple play",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Fluids and mess",
+      "Reply focus (randomized)"
+    ],
+    "Sexual roleplay scenarios": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)",
+      "Sexual roleplay scenarios"
+    ],
+    "Masturbation and watching": [
+      "Masturbation and watching"
+    ],
+    "Foot play": [
+      "Foot play"
+    ],
+    "Primal play": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Primal play",
+      "Reply focus (randomized)"
+    ],
+    "Sadism and masochism": [
+      "Sadism and masochism"
+    ],
+    "Multiple partners": [
+      "Multiple partners"
+    ],
+    "Clothing and fetishwear": [
+      "Clothing and fetishwear",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)"
+    ],
+    "Tickling": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)",
+      "Tickling"
+    ],
+    "Recording and photos": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Recording and photos",
+      "Reply focus (randomized)"
+    ],
+    "Edge play: knives and electricity": [
+      "Edge play: knives and electricity"
+    ],
+    "Sex outdoors": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)",
+      "Sex outdoors"
+    ],
+    "Sex in water and showers": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)",
+      "Sex in water and showers"
+    ],
+    "First time after long tension": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "First time after long tension",
+      "Reply focus (randomized)"
+    ],
+    "Service and objectification": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)",
+      "Service and objectification"
+    ],
+    "Explicit vocabulary": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)"
+    ],
+    "Ageplay and caregiver dynamics": [
+      "Ageplay and caregiver dynamics"
+    ],
+    "Non-con": [
+      "Non-con"
+    ],
+    "Zoophilia": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)",
+      "Zoophilia"
+    ],
+    "Fantasy species and knotting": [
+      "Explicit vocabulary",
+      "Fantasy species and knotting",
+      "Zoophilia"
+    ],
+    "Necrophilia": [
+      "Necrophilia"
+    ],
+    "Gore, injury and vore": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Gore, injury and vore",
+      "Reply focus (randomized)"
+    ],
+    "Watersports": [
+      "Watersports"
+    ],
+    "Scat": [
+      "Scat"
+    ],
+    "Blood play": [
+      "Blood play",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)"
+    ],
+    "Incest and family dynamics": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Incest and family dynamics",
+      "Reply focus (randomized)"
+    ],
+    "Cuckolding and hotwifing": [
+      "Cuckolding and hotwifing",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)"
+    ],
+    "Lactation": [
+      "Lactation"
+    ],
+    "Medical play": [
+      "Medical play"
+    ],
+    "Sounding": [
+      "Sounding"
+    ],
+    "Hypnosis and dollification": [
+      "Hypnosis and dollification"
+    ],
+    "Sissification": [
+      "Sissification"
+    ],
+    "Fisting and stretching": [
+      "Fisting and stretching"
+    ],
+    "CBT and ball play": [
+      "CBT and ball play"
+    ],
+    "Kissing and making out": [
+      "Kissing and making out"
+    ],
+    "Massage and sensual vanilla": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Massage and sensual vanilla",
+      "Reply focus (randomized)"
+    ],
+    "Food play": [
+      "Food play"
+    ],
+    "Body writing": [
+      "Body writing"
+    ],
+    "Branding, piercing and tattoos": [
+      "Branding, piercing and tattoos",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)"
+    ],
+    "Public and semi-public sex": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Public and semi-public sex",
+      "Reply focus (randomized)"
+    ],
+    "Somnophilia": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Reply focus (randomized)",
+      "Somnophilia"
+    ],
+    "TPE, protocol and honorifics": [
+      "Dominance and submission",
+      "TPE, protocol and honorifics"
+    ],
+    "Leather and dungeon etiquette": [
+      "Leather and dungeon etiquette"
+    ],
+    "Hardcore set pieces": [
+      "Explicitness - maximum",
+      "Hardcore set pieces"
+    ],
+    "Gear: suspension, chastity, machines": [
+      "Gear: suspension, chastity, machines",
+      "Hardcore set pieces",
+      "Orgasm control"
+    ]
+  },
+  "scene_expected": {
+    "explicit-director": [
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Explicitness - maximum",
+      "Hardcore set pieces",
+      "Reply focus (randomized)",
+      "Sex outdoors"
+    ],
+    "cnc-outdoors": [
+      "Breeding and creampies",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Explicitness - maximum",
+      "Hardcore set pieces",
+      "Reply focus (randomized)",
+      "Sex outdoors"
+    ],
+    "bondage-knotting": [
+      "CBT and ball play",
+      "Explicit vocabulary",
+      "Rope bondage",
+      "Sensory deprivation and gags",
+      "Zoophilia"
+    ],
+    "aftercare-kiss": [
+      "Aftercare",
+      "Clothing and fetishwear",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Fluids and mess",
+      "Marks and bruising",
+      "Reply focus (randomized)"
+    ],
+    "hardcore-setpiece": [
+      "Body worship and nipple play",
+      "Explicit scene direction",
+      "Explicit vocabulary",
+      "Explicitness - maximum",
+      "Gear: suspension, chastity, machines",
+      "Hardcore set pieces",
+      "Impact play",
+      "Orgasm control",
+      "Reply focus (randomized)"
+    ]
+  },
+  "Hardcore set pieces": "XXX, hardcore, no mercy.",
+  "Gear: suspension, chastity, machines": "He locked the chastity cage and hung the key around his neck."
+}

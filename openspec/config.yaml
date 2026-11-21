@@ -1,0 +1,31 @@
+# openspec/config.yaml
+# Context and rules are added to the AI prompt every time an OpenSpec file is written.
+# Keep this short: it's sent with every artifact (limit 50KB, but shorter = cheaper).
+schema: spec-driven
+
+context: |
+  Owner: a beginner programmer who reviews what the software DOES, not the code.
+  Write for them: plain English, short, and explain any technical term in a few words.
+  Project: <one line: what this project is>
+  Stack: <language / framework / database, or "not decided yet">
+  How to run: <command to start it>
+  Checks: <commands for tests / type check / lint>
+
+rules:
+  proposal:
+    - "Keep the template's sections (Why, What Changes, Capabilities, Impact), then add three more: Out of scope, Assumptions, Definition of done."
+    - "Assumptions lists every gap you filled in without asking the user."
+    - "Definition of done names the automated checks AND says 'all scenarios pass'."
+    - "Whole proposal under ~50 lines."
+  specs:
+    - "Use the template's WHEN/THEN scenario format. Every requirement has at least one scenario."
+    - "After each scenario's THEN line, add a line starting 'How to check by hand:' that a non-programmer can follow."
+    - "Cover errors and edge cases: empty input, bad input, nothing found, failure of anything external."
+  design:
+    - "Keep it to one screen. Explain each choice in plain words with a one-line reason."
+    - "Prefer the existing stack and the simplest approach. List any new dependency with why it's needed."
+    - "Skip sections that don't apply instead of filling them with boilerplate."
+  tasks:
+    - "Small tasks, each finishable in one sitting, ordered so the app keeps working."
+    - "Each task ends with how to confirm it's done (a command to run or a behavior to see)."
+    - "Final task: run all checks and walk through every scenario."
