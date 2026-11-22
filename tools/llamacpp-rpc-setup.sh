@@ -22,7 +22,7 @@
 #   CUDA_DEVICE    CUDA index for the NVIDIA card   (default: 0)
 #   VK_PORT, CUDA_PORT, PORT                        (default: 50052, 50053, 8081)
 #   CTX            default context size             (default: 16384)
-#   KV_TYPE        KV cache type                    (default: q4_0; q8_0 = sharper, slower)
+#   KV_TYPE        KV cache type                    (default: q8_0; q4_0 = smaller, lossier)
 #   HOST           bind address for llama-server    (default: 0.0.0.0 = whole LAN)
 #   API_KEY        optional bearer token            (default: none)
 #   FORCE=1        re-download even if already installed
@@ -36,7 +36,7 @@ VK_PORT="${VK_PORT:-50052}"
 CUDA_PORT="${CUDA_PORT:-50053}"
 PORT="${PORT:-8081}"
 DEFAULT_CTX="${CTX:-16384}"
-KV_TYPE="${KV_TYPE:-q4_0}"
+KV_TYPE="${KV_TYPE:-q8_0}"
 HOST="${HOST:-0.0.0.0}"
 API_KEY="${API_KEY:-}"
 PROBE_PORT=50098
@@ -54,7 +54,9 @@ die() {
 need() { command -v "$1" >/dev/null 2>&1 || die "missing required command: $1"; }
 
 usage() {
-	sed -n '2,24p' "$0" | sed 's/^# \{0,1\}//'
+	# Print the whole leading comment block, however long it grows: stop at the
+	# first non-comment line instead of a hardcoded line range.
+	awk 'NR==1 || /^#!/ {next} !/^#/ {exit} {sub(/^# ?/, ""); print}' "$0"
 	exit 0
 }
 
@@ -169,11 +171,39 @@ PY
 	CUDART_URL="${RESOLVED[3]}"
 }
 
+# Locate the binaries if (and only if) they are all present, without dying.
+# Sets VK_RPC/CUDA_RPC/SERVER and succeeds, or sets nothing and fails.
+try_locate_bins() {
+	local vk cu srv
+	vk="$(find_bin "$DIR/vulkan" ggml-rpc-server rpc-server)" || return 1
+	cu="$(find_bin "$DIR/cuda" ggml-rpc-server rpc-server)" || return 1
+	srv="$(find_bin "$DIR/cuda" llama-server)" || return 1
+	[[ -x "$vk" && -x "$cu" && -x "$srv" ]] || return 1
+	VK_RPC="$vk"
+	CUDA_RPC="$cu"
+	SERVER="$srv"
+}
+
+# Detect an existing install: sets TAG and the binary paths in the CURRENT
+# shell and succeeds, or returns non-zero. Never touches the network.
+# Deliberately not used inside $(...) — the assignments would be lost in the
+# subshell and later stages would see unbound VK_RPC/CUDA_RPC/SERVER.
+installed_tag() {
+	local marker="$DIR/state" state
+	[[ "${FORCE:-0}" == "1" ]] && return 1
+	[[ -f "$marker" ]] || return 1
+	state="$(cat "$marker" 2>/dev/null || true)"
+	[[ -n "$state" && "$state" == *" cuda-$CUDA_LABEL" ]] || return 1
+	try_locate_bins || return 1
+	TAG="${state% cuda-$CUDA_LABEL}"
+}
+
 install_bins() {
 	local marker="$DIR/state" want
 	want="$TAG cuda-$CUDA_LABEL"
-	if [[ "${FORCE:-0}" != "1" && -f "$marker" && "$(cat "$marker" 2>/dev/null || true)" == "$want" ]] &&
-		[[ -x "${SERVER:-}" && -x "${VK_RPC:-}" && -x "${CUDA_RPC:-}" ]]; then
+	# try_locate_bins, not -x on unset vars: SERVER/VK_RPC/CUDA_RPC are only
+	# populated here or by locate_bins, so testing them directly was always false.
+	if try_locate_bins && [[ "$(cat "$marker" 2>/dev/null || true)" == "$want" ]]; then
 		say "Binaries already installed ($TAG), skipping download (FORCE=1 to redo)"
 		return 0
 	fi
@@ -284,9 +314,8 @@ main() {
 	need python3
 	need timeout
 
-	resolve_release
-
 	if [[ "$MODE" == "dry" ]]; then
+		resolve_release
 		say "Release: $TAG"
 		printf 'Vulkan build : %s\n' "$VK_URL"
 		printf 'CUDA build   : %s\n' "$CUDA_URL"
@@ -295,8 +324,15 @@ main() {
 		exit 0
 	fi
 
-	install_bins
-	locate_bins
+	# Resolve the release only when something must be downloaded. A '--run' with
+	# installed binaries must not depend on the GitHub API being reachable.
+	if installed_tag; then
+		say "Binaries already installed ($TAG), skipping release resolution and download"
+	else
+		resolve_release
+		install_bins
+		locate_bins
+	fi
 
 	VK_DEV="$(detect_vk_device)"
 	say "AMD card is Vulkan device $VK_DEV; NVIDIA card is CUDA device $CUDA_DEVICE"
